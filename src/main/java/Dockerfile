@@ -1,6 +1,6 @@
 FROM alpine/git
 WORKDIR /app
-RUN git clone https://github.com/vinsan/distribuitedsystems.git
+RUN git clone https://github.com/spagnuolocarmine/distributedsystems.git
 WORKDIR ./distributedsystems
 RUN git checkout doomdragon
 
